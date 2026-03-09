@@ -1,3 +1,4 @@
+```js
 var vpais = PLUGIN_DATOSFORMULARIO.getValorCompuesto('CSELPAIS');
 var vcodselpais = vpais.getCodigo();
 
@@ -9,3 +10,4 @@ if (PLUGIN_UTILS.esIgual(vcodselpais, '1')){
 } else {
     DATOS_VALOR.resetValor();
 }
+```
