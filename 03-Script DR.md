@@ -1,3 +1,4 @@
+```js
 var parametre = PLUGIN_DOMINIOS.crearParametros();
 var v_uo = PLUGIN_DATOSFORMULARIO.getValorCompuesto('C_SEL_DIR3_1');
 var codiuo = v_uo.getCodigo();
@@ -16,3 +17,4 @@ if (res>0){
         DATOS_VALORESPOSIBLES.addValorPosible(cod, desc);
 	}
 }
+```
